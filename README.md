@@ -1,7 +1,6 @@
-# dash
+# rq-dashboard with authentication [![](https://quay.io/repository/humu/dash/status)](https://quay.io/repository/humu/dash)
 
-Docker image of [rq-dashboard](https://github.com/nvie/rq-dashboard)
-with [Flask basic auth](http://flask-basicauth.readthedocs.org/en/latest/).
+Docker image of [rq-dashboard](https://github.com/nvie/rq-dashboard) with [Flask basic auth](http://flask-basicauth.readthedocs.org/en/latest/).
 
 # Usage
 
@@ -45,3 +44,6 @@ boot2docker ssh -vnNTL 9181:localhost:9181
 
 This is only needed for running on a Mac. More background info
 [here](https://github.com/boot2docker/boot2docker/blob/master/doc/WORKAROUNDS.md)
+
+## LICENSE
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
